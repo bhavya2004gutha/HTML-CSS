@@ -3,51 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML &CSS</title>
-<style>
+    <title> Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
 
-    .frontend{
-       width: 80vw;
-       height:100vh;     
-      background-image: url('backgroundimage.jpeg');
-      background-size: cover;
-        overflow: hidden;
-        position: relative;
-        
-    }
-    .button{
-        position: absolute;
-        top:90px;
-        left:35vw;
-    }
-    .heading{
-        position: absolute;
-        top: 20px;
-        left: 20vw;
-    } 
-    .styles{
-         position: absolute;
-        top:110px;
-        left:35vw;
-        
-       
-      
-    }
-
-</style>
-<body> 
-
-    <div class="frontend">
-        
-    </div>
-    <h1 class="heading"> EXERCISE OF HTML & CSS</h1> 
-<button class="button"><a href="html basics.html"> html basics </a></button>
-
-    <button class="styles"><a href="Text Styles.html"> TextStyles</a></button>
-
-
-
-
-</body>
 </head>
+<body>
+    <header class="header">
+        <a href="#"  class=  "logo"> portfolio</a>
 
+        <nav class="navbar">
+         <a href="#"  class="active">Home</a>
+          <a href="#" >About</a>
+           <a href="#" >Skills</a>
+            <a href="#" >Portfolio</a>
+             <a href="#" > Contact</a>
+
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-content">
+            <h1>Hi, I'm Bhavya </h1>
+            <h3>FullStack Developer </h3>
+            <p>  Personal Portfolio Website using HTML & CSS Only | 
+                How to Create Personal Website  </p>
+          
+        </div>
+       <div class="home-img">          
+    <img src="profile.jpeg" alt="Profile Photo">
+</div>
+
+    </section>
+<section class="about" style="margin-top: 100px;">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi! I'm Bhavya, a passionate FullStack Developer. 
+                    I love building clean and user-friendly web applications 
+                    using HTML and CSS. 
+                        This is just the start of my journey!</p>
+                </div>
+            </div>
+        </div>
+    </section>    
+</body>
+</html>  
